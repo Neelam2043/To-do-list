@@ -148,6 +148,8 @@ ul li span:hover{
         flex-wrap: wrap;
         gap: 10px;
     }
+    input{
+        padding: 10px;
 
     button{
         padding: 10px 20px;
