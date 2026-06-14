@@ -9,11 +9,13 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to right, hsl(295, 100%, 43%), #6d00b0);
+    background: linear-gradient(to right, hsl(295,100%,43%), #6d00b0);
+
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
+
     padding: 100px 20px;
 }
 
@@ -21,16 +23,18 @@
 .todo-app{
     width: 100%;
     max-width: 540px;
-    background: #fff;
-    padding: 40px 30px 70px;
+
+    background: white;
     border-radius: 15px;
+
+    padding: 40px 30px 70px;
 }
 
 /* HEADING */
 .todo-app h2{
-    color: #002765;
     display: flex;
     align-items: center;
+    color: #002765;
     margin-bottom: 20px;
 }
 
@@ -44,11 +48,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     background: #edeef0;
     border-radius: 30px;
+
     padding-left: 20px;
     margin-bottom: 25px;
-    gap: 10px;
 }
 
 /* INPUT */
@@ -57,6 +62,7 @@ input{
     border: none;
     outline: none;
     background: transparent;
+
     padding: 10px;
     min-width: 0;
 }
@@ -65,34 +71,41 @@ input{
 button{
     border: none;
     outline: none;
+
     padding: 16px 35px;
+
     background: #ff5945;
-    color: #fff;
+    color: white;
     font-size: 16px;
     cursor: pointer;
+
     border-radius: 40px;
     flex-shrink: 0;
 }
 
-/* TASK LIST */
+/* TASKS */
 ul li{
     list-style: none;
     font-size: 17px;
     padding: 12px 10px 12px 50px;
+
     user-select: none;
     cursor: pointer;
     position: relative;
 }
 
-/* UNCHECKED ICON */
+/* UNCHECKED IMAGE */
 ul li::before{
-    content: '';
+    content: "";
     position: absolute;
+
     width: 28px;
     height: 28px;
+
     background-image: url(unchecked.png);
     background-size: cover;
     background-position: center;
+
     top: 12px;
     left: 8px;
 }
@@ -112,12 +125,16 @@ ul li span{
     position: absolute;
     right: 0;
     top: 5px;
+
     width: 40px;
     height: 40px;
+
     font-size: 22px;
     color: #555;
+
     line-height: 40px;
     text-align: center;
+
     border-radius: 50%;
 }
 
@@ -127,21 +144,22 @@ ul li span:hover{
 
 /* SUMMARY BOX */
 .left1{
-    width: 300px;
-    background: #fff;
-    padding: 30px;
+    width: 280px;
+
+    background: white;
     border-radius: 20px;
+
+    padding: 30px;
+
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 /* SUMMARY HEADING */
 .left1 h2{
     color: red;
     text-decoration: underline;
-    display: flex;
-    align-items: center;
     font-size: 28px;
 }
 
@@ -154,7 +172,9 @@ ul li span:hover{
 .left1 p{
     border: 1px solid black;
     border-radius: 10px;
+
     padding: 12px 20px;
+
     font-size: 20px;
 }
 
@@ -164,6 +184,7 @@ ul li span:hover{
     .container{
         flex-direction: column;
         align-items: center;
+
         gap: 25px;
         padding: 40px 15px;
     }
