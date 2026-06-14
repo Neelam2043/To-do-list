@@ -143,17 +143,15 @@ ul li span:hover{
         align-items: center;
         gap: 20px;
     }
-     .row{
-        flex-direction: column;
-        align-items: stretch;
+     input{
+        min-width: 0;
     }
 
     button{
-        width: 40%;
-        padding: 14px;
+        padding: 14px 20px;
+        flex-shrink: 0;
     }
 }
-        
 
     .todo-app,
     .left1{
