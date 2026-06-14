@@ -136,3 +136,17 @@ ul li span:hover{
     color: black;
     margin-bottom: 10px;
 }
+@media (max-width: 768px){
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .todo-app,
+    .left1{
+        width: 90%;
+        margin: 0;
+    }
+}
